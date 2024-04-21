@@ -738,6 +738,12 @@ color: #111111;
 cursor: pointer;
 }
 
+.btn-review:active,
+.btn-review:hover{
+    background-color: #FD9222;
+    color: #ffff;
+}
+
 /* ==================FOOTER====================== */
 
 /* ==================FOOTER-TOP====================== */
@@ -872,3 +878,91 @@ cursor: pointer;
 border: none;
 }
 
+.btn-subscribe:active,
+.btn-subscribe:hover{
+    background-color: #FCF1E0;
+    color: #FD9222;
+}
+
+/* ==================MODAL====================== */
+
+
+.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+/* ==================CARDS====================== */
+
+.cards-sec{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    background-color: turquoise;
+}
+
+.container.cards{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.components-card{
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 15px;
+}
+
+.components-card-title{
+
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 8px;
+}
+
+.components-card-links{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.chocolate-link{
+    padding: 6px 16px;
+    background-color: #FD9222;
+    border-radius: 100px;
+    font-weight: 400;
+font-size: 10px;
+line-height: 1.2;
+color: #ffffff;
+}
+
+.benefits-link{
+    background-color: inherit;
+    border: 1px solid #FD9222;
+    border-radius: 100px;
+    padding: 6px 16px;
+
+font-weight: 400;
+font-size: 10px;
+line-height: 1.20;
+color: #111111;
+}
+
+.components-card-paragraph{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: 0.02em;
+color: #111111;
+}
